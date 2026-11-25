@@ -21,16 +21,14 @@ class Drink(Product):
 
 def product_menu():
     products = [
-        Food("Petchay", 50),
-        Food("Monay", 30),
-        Food("French Fries", 22), #be carefull y'all this can cause cancer
-        Drink("Iced Tea", 35),
-        Drink("Lemonade", 35)
+        Food("Burger", 50),
+        Food("Fries", 35),
+        Food("Soft Drink", 25), 
         ]
         
     order_items = []
     
-    print("\nPRODUCT MENU 🥶")
+    print("\nPRODUCT MENU ")
     
     for i, product in enumerate(products, 1):
         print(f"{i}. ", end="")
