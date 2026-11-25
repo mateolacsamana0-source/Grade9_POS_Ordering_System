@@ -1,7 +1,7 @@
 # Grade9_POS_Ordering_System
 Argota &amp; Lacsamana
 
-Hello! This is the POS Ordering System created by Angelina Jane E. Argota and Mateo Lucas B. Lacsamana. We collaborated together to share ideas and build a better, stabilized POS ordering meals, so you can order meals efficiently. 
+Hello! This is the POS Ordering System Receipt created by Mateo Lucas B. Lacsamana. I created this receipt to showcase the true value of your meals.
 
 class Product:
     def __init__(self, product, quantity, price):
@@ -42,6 +42,6 @@ if __name__ == "__main__":
     order = Receipt([
         Product("Burger", 2, 50),
         Product("Fries", 1, 35),
-        Product("Soft Drink", 1, 50),
+        Product("Soft Drink", 2, 25),
     ])
     order.display()
